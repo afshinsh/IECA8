@@ -1,0 +1,4 @@
+npm install
+npm run build
+docker build -t iemdb .
+docker run -d --name iemdb -p 8080:8080 iemdb
